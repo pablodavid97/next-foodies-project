@@ -33,7 +33,8 @@ const MealPage = ({ params }) => {
             <header className={styles.header}>
                 <div className={styles.image}>
                     <Image
-                        src={`https://pllanes-nextjs-demo-foodies-app.s3.us-east-1.amazonaws.com/${meal.image}`}
+                        src={`${process.env.NEXT_PUBLIC_IMAGE_URL}/${meal.image}`}
+                        alt={meal.title}
                         fill
                     />
                 </div>

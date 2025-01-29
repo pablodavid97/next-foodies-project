@@ -6,7 +6,6 @@ const nextConfig = {
                 protocol: 'https',
                 hostname:
                     'pllanes-nextjs-demo-foodies-app.s3.us-east-1.amazonaws.com',
-                port: '',
                 pathname: '/**',
             },
         ],
